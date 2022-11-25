@@ -26,6 +26,7 @@ import {
   CloseBtn,
   ConfirmBtn,
   LogoutModalContainer,
+  NavLink,
 } from './StyledHeader'
 import ThemeContext from '../../context/ThemeContext'
 import './index.css'
@@ -60,9 +61,11 @@ class HeaderRoute extends Component {
           return (
             <>
               <HeaderContainer className={bgColor}>
-                <LogoContainer>
-                  <LogoImage src={logoImage} alt="website logo" />
-                </LogoContainer>
+                <NavLink to="/">
+                  <LogoContainer>
+                    <LogoImage src={logoImage} alt="website logo" />
+                  </LogoContainer>
+                </NavLink>
                 <NavLinksContainer>
                   <NavItems>
                     <NavLinks>

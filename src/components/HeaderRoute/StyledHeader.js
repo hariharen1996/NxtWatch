@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -127,4 +128,8 @@ export const ConfirmBtn = styled(CloseBtn)`
   color: #ffffff;
   border: none;
   outline: none;
+`
+
+export const NavLink = styled(Link)`
+  text-decoration: none;
 `

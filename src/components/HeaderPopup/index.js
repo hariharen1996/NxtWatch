@@ -59,7 +59,7 @@ class HeaderPopup extends Component {
                         <SiYoutubegaming className={iconColor} size={25} />
                         <NavText menuColor={menuColor}>Gaming</NavText>
                       </NavLink>
-                      <NavLink to="/saved" onClick={() => close()}>
+                      <NavLink to="/saved-videos" onClick={() => close()}>
                         <HiSave className={iconColor} size={25} />
                         <NavText menuColor={menuColor}>Saved Videos</NavText>
                       </NavLink>
